@@ -1,0 +1,33 @@
+{
+    "screenspot-pro": {
+      "name": "ScreenSpot-Pro", 
+      "data_path": "./data/ScreenSpot-Pro/annotations",
+      "image_root": "./data/ScreenSpot-Pro/images",
+      "description": "ScreenSpot-Pro dataset for UI element grounding"
+    },
+    "screenspot-v2": {
+      "name": "ScreenSpot-v2", 
+      "data_path": "./data/ScreenSpot-v2",
+      "image_root": "./data/ScreenSpot-v2/screenspot_imgs",
+      "description": "ScreenSpot-v2 dataset for UI element grounding"
+    },
+    "ui-vision": {
+      "name": "UI-Vision", 
+      "data_path": "./data/ui-vision/annotations/element_grounding",
+      "image_root": "./data/ui-vision/images",
+      "description": "UI-Vision dataset for UI element grounding"
+    },
+    "mmbench-gui": {
+      "name": "MMBench-GUI", 
+      "data_path": "./data/MMBench-GUI/L2_annotations.json",
+      "image_root": "./data/MMBench-GUI/MMBench-GUI-OfflineImages/offline_images",
+      "description": "MMBench-GUI dataset for UI element grounding"
+    },
+    "i2e-bench": {
+      "name": "I2E-Bench", 
+      "data_path": "./data/I2E-Bench/I2E-bench-annotation.jsonl",
+      "image_root": "./data/I2E-Bench/",
+      "description": "I2E-Bench dataset for UI element grounding"
+    }
+  } 
+  
