@@ -5,14 +5,14 @@ InfiGUI-G1: Advancing GUI Grounding with Adaptive Exploration Policy Optimizatio
 </h1>
 
 <p align="center">
-  <a href="https://github.com/InfiXAI/InfiGUI-G1"><img src="https://img.shields.io/badge/arXiv-Preprint-b31b1b?style=flat&logo=arxiv&logoColor=white" alt="arXiv Paper"></a>
-  <a href="https://huggingface.co/papers"><img src="https://img.shields.io/badge/HuggingFace-Daily%20Papers-ff9800?style=flat&logo=huggingface" alt="Hugging Face Paper"></a>
+  <a href="https://arxiv.org/abs/2508.05731"><img src="https://img.shields.io/badge/arXiv-Preprint-b31b1b?style=flat&logo=arxiv&logoColor=white" alt="arXiv Paper"></a>
+<!--   <a href="https://huggingface.co/papers"><img src="https://img.shields.io/badge/HuggingFace-Daily%20Papers-ff9800?style=flat&logo=huggingface" alt="Hugging Face Paper"></a> -->
   <a href="https://huggingface.co/InfiX-ai/InfiGUI-G1-3B"><img src="https://img.shields.io/badge/Model-InfiGUI--G1--3B-007ec6?style=flat&logo=huggingface" alt="InfiGUI-G1 3B Model"></a>
   <a href="https://huggingface.co/InfiX-ai/InfiGUI-G1-7B"><img src="https://img.shields.io/badge/Model-InfiGUI--G1--7B-007ec6?style=flat&logo=huggingface" alt="InfiGUI-G1 7B Model"></a>
 </p>
 
 <p align="center">
-  This is the official repository for the paper <a href="https://github.com/InfiXAI/InfiGUI-G1">InfiGUI-G1</a>.
+  This is the official repository for the paper <a href="https://arxiv.org/abs/2508.05731">InfiGUI-G1</a>.
   <br>
   <strong>InfiGUI-G1 enhances GUI grounding with Adaptive Exploration Policy Optimization (AEPO) to overcome exploration bottlenecks.</strong>
 </p>
@@ -29,7 +29,7 @@ To address this critical exploration problem, we introduce **InfiGUI-G1**, a ser
 </div>
 
 ## 🔥 News
-- 🔥 ***`2025/08/11`*** Our paper "[InfiGUI-G1: Advancing GUI Grounding with Adaptive Exploration Policy Optimization](https://github.com/InfiXAI/InfiGUI-G1)" released.
+- 🔥 ***`2025/08/11`*** Our paper "[InfiGUI-G1: Advancing GUI Grounding with Adaptive Exploration Policy Optimization](https://arxiv.org/abs/2508.05731)" released.
 - 🔥 ***`2025/05/15`*** Our paper "[OS Agents: A Survey on MLLM-based Agents for Computer, Phone and Browser Use](https://os-agent-survey.github.io/)" is accepted by *ACL 2025*.
 - 🔥 ***`2025/4/19`*** Our paper "[InfiGUI-R1: Advancing Multimodal GUI Agents from Reactive Actors to Deliberative Reasoners](https://arxiv.org/abs/2504.14239)" released.
 - 🔥 ***`2025/1/9`*** Our paper "[InfiGUIAgent: A Multimodal Generalist GUI Agent with Native Reasoning and Reflection](https://arxiv.org/abs/2501.04575)" released.
@@ -183,13 +183,25 @@ Evaluation results, including detailed logs and performance metrics, will be sav
 If you find this work useful, citations to the following papers are welcome:
 
 ```bibtex
+@misc{liu2025infiguig1advancingguigrounding,
+      title={InfiGUI-G1: Advancing GUI Grounding with Adaptive Exploration Policy Optimization}, 
+      author={Yuhang Liu and Zeyu Liu and Shuanghe Zhu and Pengxiang Li and Congkai Xie and Jiasheng Wang and Xueyu Hu and Xiaotian Han and Jianbo Yuan and Xinyao Wang and Shengyu Zhang and Hongxia Yang and Fei Wu},
+      year={2025},
+      eprint={2508.05731},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2508.05731}, 
+}
+```
+
+```bibtex
 @article{liu2025infigui,
   title={InfiGUI-R1: Advancing Multimodal GUI Agents from Reactive Actors to Deliberative Reasoners},
   author={Liu, Yuhang and Li, Pengxiang and Xie, Congkai and Hu, Xavier and Han, Xiaotian and Zhang, Shengyu and Yang, Hongxia and Wu, Fei},
   journal={arXiv preprint arXiv:2504.14239},
   year={2025}
 }
-````
+```
 
 ```bibtex
 @article{liu2025infiguiagent,
