@@ -6,7 +6,7 @@ InfiGUI-G1: Advancing GUI Grounding with Adaptive Exploration Policy Optimizatio
 
 <p align="center">
   <a href="https://arxiv.org/abs/2508.05731"><img src="https://img.shields.io/badge/arXiv-Preprint-b31b1b?style=flat&logo=arxiv&logoColor=white" alt="arXiv Paper"></a>
-<!--   <a href="https://huggingface.co/papers"><img src="https://img.shields.io/badge/HuggingFace-Daily%20Papers-ff9800?style=flat&logo=huggingface" alt="Hugging Face Paper"></a> -->
+  <a href="https://huggingface.co/papers/2508.05731"><img src="https://img.shields.io/badge/HuggingFace-Daily%20Papers-ff9800?style=flat&logo=huggingface" alt="Hugging Face Paper"></a>
   <a href="https://huggingface.co/InfiX-ai/InfiGUI-G1-3B"><img src="https://img.shields.io/badge/Model-InfiGUI--G1--3B-007ec6?style=flat&logo=huggingface" alt="InfiGUI-G1 3B Model"></a>
   <a href="https://huggingface.co/InfiX-ai/InfiGUI-G1-7B"><img src="https://img.shields.io/badge/Model-InfiGUI--G1--7B-007ec6?style=flat&logo=huggingface" alt="InfiGUI-G1 7B Model"></a>
 </p>
