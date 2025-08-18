@@ -161,7 +161,7 @@ unzip ./data/MMBench-GUI/MMBench-GUI-OfflineImages.zip -d ./data/MMBench-GUI/
 
 ### 5. Running the Evaluation
 
-To run the evaluation, use the `eval/eval.py` script. You must specify the path to the model, the benchmark name, and the tensor parallel size.
+To run the evaluation, use the [`eval/eval.py`](https://github.com/InfiXAI/InfiGUI-G1/blob/main/eval/eval.py) script. You must specify the path to the model, the benchmark name, and the tensor parallel size.
 
 Here is an example command to evaluate the `InfiGUI-G1-3B` model on the `screenspot-pro` benchmark using 4 GPUs:
 
@@ -178,24 +178,35 @@ python eval/eval.py \
 
 Evaluation results, including detailed logs and performance metrics, will be saved to the `./output/{model_name}/{benchmark}/` directory.
 
+## 🚆 Training
+
+This section provides instructions for reproducing the training results of InfiGUI-G1. Our training framework is built upon the [VERL](https://github.com/volcengine/verl) repository.
+
+### 1. Environment Setup
+
+Please follow the environment setup instructions for VERL with vLLM support. You can either follow their installation guide or use the official Docker images provided by VERL, which come pre-configured with the necessary dependencies, including vLLM.
+
+### 2. Training Recipe
+
+We provide our code and training scripts in the [`recipe/infigui-g1`](https://github.com/InfiXAI/InfiGUI-G1/tree/main/recipe/infigui-g1) directory. A sample dataset is also included to help you get started.
+
+For detailed instructions on how to launch the training for both the 3B and 7B models, please refer to the [`recipe/infigui-g1/README.md`](https://github.com/InfiXAI/InfiGUI-G1/blob/main/recipe/infigui-g1/README.md) file.
+
 ## 📚 Citation Information
 
 If you find this work useful, citations to the following papers are welcome:
 
 ```bibtex
-@misc{liu2025infiguig1advancingguigrounding,
-      title={InfiGUI-G1: Advancing GUI Grounding with Adaptive Exploration Policy Optimization}, 
-      author={Yuhang Liu and Zeyu Liu and Shuanghe Zhu and Pengxiang Li and Congkai Xie and Jiasheng Wang and Xueyu Hu and Xiaotian Han and Jianbo Yuan and Xinyao Wang and Shengyu Zhang and Hongxia Yang and Fei Wu},
-      year={2025},
-      eprint={2508.05731},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2508.05731}, 
+@article{liu2025infiguig1,
+  title={InfiGUI-G1: Advancing GUI Grounding with Adaptive Exploration Policy Optimization},
+  author={Liu, Yuhang and Liu, Zeyu and Zhu, Shuanghe and Li, Pengxiang and Xie, Congkai and Wang, Jiasheng and Hu, Xueyu and Han, Xiaotian and Yuan, Jianbo and Wang, Xinyao and others},
+  journal={arXiv preprint arXiv:2508.05731},
+  year={2025}
 }
 ```
 
 ```bibtex
-@article{liu2025infigui,
+@article{liu2025infiguir1,
   title={InfiGUI-R1: Advancing Multimodal GUI Agents from Reactive Actors to Deliberative Reasoners},
   author={Liu, Yuhang and Li, Pengxiang and Xie, Congkai and Hu, Xavier and Han, Xiaotian and Zhang, Shengyu and Yang, Hongxia and Wu, Fei},
   journal={arXiv preprint arXiv:2504.14239},
