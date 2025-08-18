@@ -47,7 +47,7 @@ To address this critical exploration problem, we introduce **InfiGUI-G1**, a ser
 - ✅ InfiGUI-G1-3B Model Release
 - ✅ InfiGUI-G1-7B Model Release
 - ✅ Evaluation Code and Instructions
-- ⏳ Training Code and Scripts
+- ✅ Training Code and Scripts
 
 ## 📊 Results
 
