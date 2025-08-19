@@ -37,7 +37,7 @@ To address this critical exploration problem, we introduce **InfiGUI-G1**, a ser
 - 🔥 ***`2024/4/2`*** Our paper "[InfiAgent-DABench: Evaluating Agents on Data Analysis Tasks](https://infiagent.github.io/)" is accepted by *ICML 2024*.
 
 ## 🚀 Updates
-- 🚀 ***`2025/08/18`*** The training script is now available. See the [Training](https://github.com/InfiXAI/InfiGUI-G1/edit/main/README.md#-training) section for details.
+- 🚀 ***`2025/08/18`*** The training script is now available. See the [Training](https://github.com/InfiXAI/InfiGUI-G1?tab=readme-ov-file#-training) section for details.
 - 🚀 ***`2025/08/11`*** The evaluation script is now available. See the [Evaluation](#️-evaluation) section for details.
 - 🚀 ***`2025/08/11`*** The models [InfiGUI-G1-3B](https://huggingface.co/InfiX-ai/InfiGUI-G1-3B) and [InfiGUI-G1-7B](https://huggingface.co/InfiX-ai/InfiGUI-G1-7B) are now publicly available on Hugging Face.
 - 🚀 ***`2025/08/08`*** The official repository for InfiGUI-G1 is now public.
